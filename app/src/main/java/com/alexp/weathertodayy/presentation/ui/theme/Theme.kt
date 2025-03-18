@@ -1,4 +1,4 @@
-package com.alexp.weathertodayy.ui.theme
+package com.alexp.weathertodayy.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
