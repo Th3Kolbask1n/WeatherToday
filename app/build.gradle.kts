@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.ksp)
     id("org.jetbrains.kotlin.plugin.parcelize")
     alias(libs.plugins.kotlin.compose)
-    kotlin("plugin.serialization")
+//    kotlin("plugin.serialization")
 
 }
 
@@ -81,7 +81,7 @@ dependencies {
     implementation(libs.retrofit.gsonConverter)
     implementation(libs.icons)
 
-    implementation(libs.kotlinx.serialization.json)
+//    implementation(libs.kotlinx.serialization.json)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
