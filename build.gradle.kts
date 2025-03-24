@@ -4,6 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.ksp) apply false
     alias(libs.plugins.kotlin.compose) apply false
-//    kotlin("plugin.serialization") version "2.1.10"
-
+    kotlin("jvm") version "2.1.0" // or kotlin("multiplatform") or any other kotlin plugin
+    kotlin("plugin.serialization") version "2.1.0"
 }
