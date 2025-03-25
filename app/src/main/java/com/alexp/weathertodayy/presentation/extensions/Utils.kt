@@ -6,6 +6,10 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Locale
+import kotlin.math.roundToInt
 
 fun ComponentContext.componentScope() = CoroutineScope(
     Dispatchers.Main.immediate + SupervisorJob()
@@ -13,4 +17,19 @@ fun ComponentContext.componentScope() = CoroutineScope(
     lifecycle.doOnDestroy {
         cancel()
     }
+}
+
+fun Float.tempToFormattedString() : String = "${roundToInt()}°С"
+
+
+fun Calendar.formattedFullDate():String{
+    val format = SimpleDateFormat("EEEE | d MM y", Locale.getDefault())
+    return format.format(time)
+}
+
+fun Calendar.formattedShortDayOfWeek():String
+{
+    val format = SimpleDateFormat("EEEE", Locale.getDefault())
+    return format.format(time)
+
 }

@@ -25,34 +25,34 @@ data class Gradient(
 object CardGradients {
     val gradients = listOf(
         Gradient(
-            firstColor = Color(0xFF2196F3),
-            secondColor = Color(0xFF64B5F6),
-            thirdColor = Color(0xFF1976D2),
-            fourthColor = Color(0xFFBBDEFB),
+            firstColor = Color(0xFF673AB7),
+            secondColor = Color(0xFF9575CD),
+            thirdColor = Color(0xFF512DA8),
+            fourthColor = Color(0xFFD1C4E9),
         ),
         Gradient(
-            firstColor = Color(0xFFFF5722),
-            secondColor = Color(0xFFFF8A65),
-            thirdColor = Color(0xFFD84315),
-            fourthColor = Color(0xFFFFCCBC),
+            firstColor = Color(0xFFE91E63),
+            secondColor = Color(0xFFF06292),
+            thirdColor = Color(0xFFC2185B),
+            fourthColor = Color(0xFFF8BBD0),
         ),
         Gradient(
-            firstColor = Color(0xFF4CAF50),
-            secondColor = Color(0xFF81C784),
-            thirdColor = Color(0xFF2E7D32),
-            fourthColor = Color(0xFFC8E6C9),
+            firstColor = Color(0xFF009688),
+            secondColor = Color(0xFF4DB6AC),
+            thirdColor = Color(0xFF00796B),
+            fourthColor = Color(0xFFB2DFDB),
         ),
         Gradient(
-            firstColor = Color(0xFFFFC107),
-            secondColor = Color(0xFFFFD54F),
-            thirdColor = Color(0xFFFFA000),
-            fourthColor = Color(0xFFFFF8E1),
+            firstColor = Color(0xFFFF9800),
+            secondColor = Color(0xFFFFB74D),
+            thirdColor = Color(0xFFF57C00),
+            fourthColor = Color(0xFFFFE0B2),
         ),
         Gradient(
-            firstColor = Color(0xFF9C27B0),
-            secondColor = Color(0xFFCE93D8),
-            thirdColor = Color(0xFF6A1B9A),
-            fourthColor = Color(0xFFE1BEE7),
+            firstColor = Color(0xFF3F51B5),
+            secondColor = Color(0xFF7986CB),
+            thirdColor = Color(0xFF303F9F),
+            fourthColor = Color(0xFFC5CAE9),
         )
     )
 }

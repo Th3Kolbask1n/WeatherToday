@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">WeatherTodayy</string>
+    <string name="button_add_favourite">Добавить город</string>
+    <string name="search">Поиск</string>
+    <string name="upcoming">Прогноз</string>
+    <string name="empty_result_text">По  запросу ничего не найдено</string>
+    <string name="weather_error">Ошибка!</string>
+    <string name="weather_initial">Инициализация</string>
+    <string name="loading_data">Загрузка</string>
+    <string name="error_loading_data">Ошибка загрузки</string>
+    <string name="back">Назад</string>
+    <string name="search_instructions">Начните вводить название города или выберите пример:</string>
+    <string name="search_tips">Используйте английские названия для лучшего результата</string>
+
 </resources>
